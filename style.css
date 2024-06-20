@@ -20,7 +20,9 @@ body {
   color: var(--text-secondary);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--text-primary);
 }
 
@@ -85,7 +87,23 @@ h2 {
   margin-top: 6.4rem;
 }
 
+#item-01,
+#item-02,
+#item-03 {
+  margin-bottom: 4.8rem;
+}
+
+ol li {
+  margin-left: 3rem;
+}
+
+ol li::marker {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
 h3 {
+  font-size: 2.8rem;
   margin-top: 2rem;
 }
 
@@ -93,31 +111,30 @@ span {
   font-weight: bold;
 }
 
-ul {
+ul li {
   list-style: inside;
-  margin-bottom: 4.8rem;
-  margin-left: 0.4rem;
+  margin-left: 0.2rem;
   font-weight: bold;
 }
-
 
 ul li:first-child {
   color: #0c51a7;
 }
 
-#destinations article:nth-child(3) li:nth-child(1) {
+#item-03 ul li:nth-child(1) {
   color: #591b98;
 }
 
-#destinations article:nth-child(3) li:nth-child(2) {
-  color: #E5245E;
+#item-03 ul li:nth-child(2) {
+  color: #e5245e;
 }
 
-#destinations article:nth-child(3) li:nth-child(3) {
-  color: #E95E10;
+#item-03 ul li:nth-child(3) {
+  color: #e95e10;
 }
 
 ul li::marker {
+  font-size: 1.6rem;
   color: var(--text-secondary);
 }
 
