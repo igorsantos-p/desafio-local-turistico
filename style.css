@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 62.5%;
+  --bg-color: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secondary: #333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+}
+
+body {
+  background: var(--bg-color);
+  font-size: 1.6rem;
+}
+
+#page {
+  width: 128rem;
+  padding: 8.8rem 8rem;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 2.8rem;
+}
