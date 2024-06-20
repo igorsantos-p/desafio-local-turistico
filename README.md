@@ -1,4 +1,4 @@
-# Desafio 1 da Jornada Fullstack Rocketseat
+# Desafio 1 da Jornada Full-Stack Rocketseat
 WebPage simples em HTML e CSS.
 
 Layout do desafio:
