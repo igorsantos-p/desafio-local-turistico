@@ -100,6 +100,7 @@ ul {
   font-weight: bold;
 }
 
+
 ul li:first-child {
   color: #0c51a7;
 }
@@ -114,6 +115,10 @@ ul li:first-child {
 
 #destinations article:nth-child(3) li:nth-child(3) {
   color: #E95E10;
+}
+
+ul li::marker {
+  color: var(--text-secondary);
 }
 
 .line + p {
